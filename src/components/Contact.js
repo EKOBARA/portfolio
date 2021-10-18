@@ -2,10 +2,19 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            contact info
-        </div>
-    );
+			<div className='contact'>
+				<ul>
+					<li>Email</li>
+					<li>
+						<a href='https://github.com/EKOBARA'>GitHub</a>
+					</li>
+					<li>
+						<a href='https://www.linkedin.com/in/ekobara/'>LinkediN</a>
+					</li>
+					<li></li>
+				</ul>
+			</div>
+		);
 };
 
 export default Contact;

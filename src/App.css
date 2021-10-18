@@ -1,6 +1,21 @@
-.App {
+body {
   text-align: center;
 }
+
+.home {
+  display: grid;
+  grid-template-columns: 10vh 1fr 10vh;
+  grid-template-rows: 15vh 70vh 15vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 /span 1;
+}
+
 
 .App-logo {
   height: 40vmin;
