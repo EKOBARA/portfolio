@@ -1,5 +1,28 @@
 body {
   text-align: center;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: rem; */
+  /* width: 100vh; */
+}
+
+li {
+  text-decoration: none;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 /span 1;
 }
 
 .home {
@@ -8,16 +31,23 @@ body {
   grid-template-rows: 15vh 70vh 15vh;
 }
 
-section {
+.about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column: 2 / span 1;
-  grid-row: 2 /span 1;
+  height: 100vh;
+
 }
 
+.info {
+  padding: 1em;
+}
 
-.App-logo {
+.contact {
+  width: 60vh;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +65,4 @@ section {
   to {
     transform: rotate(360deg);
   }
-}
+} */
