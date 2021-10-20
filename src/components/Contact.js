@@ -11,7 +11,9 @@ const Contact = () => {
 					<li>
 						<a href='https://www.linkedin.com/in/ekobara/'>LinkediN</a>
 					</li>
-					<li></li>
+					<li>
+                        <a href="">Resume</a>
+                    </li>
 				</ul>
 			</div>
 		);
