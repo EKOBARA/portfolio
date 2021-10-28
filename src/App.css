@@ -31,7 +31,7 @@ li {
   grid-template-rows: 15vh 70vh 15vh;
 }
 
-/* .about {
+.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,4 +45,4 @@ li {
 
 .contact {
   width: 60vh;
-} */
+}
