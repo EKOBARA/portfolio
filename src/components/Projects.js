@@ -17,8 +17,9 @@ const Projects = () => {
 					<a href='https://pricelessapp.netlify.app/'>
                         Priceless
                     </a>
+					{/* <img src="" alt="" /> */}
 				</section>
-				<section>Project 4</section>
+				{/* <section>Project 4</section> */}
 			</div>
 		);
 };
