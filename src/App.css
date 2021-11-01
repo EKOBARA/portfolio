@@ -14,8 +14,12 @@ h1 {
 a:link {
   text-align: center;
   text-decoration: none;
+  color:rgb(30, 113, 33)
 }
 
+  a:visited { 
+    color: rgb(30, 113, 33);
+  }
 
 ul {
   list-style-type: none;
@@ -23,14 +27,25 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding: rem; */
-  /* width: 100vh; */
-}
+}s
 
 li {
   text-decoration: none;
 }
 
+.p-link {
+  font-size: 25px;
+  margin: 10px;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  background-color: rgba(206, 189, 166, 0.276);
+}
+
+.p-link:hover{
+  /* color: rgb(184, 122, 42); */
+  background-color: rgba(188, 176, 196, 0.892);
+
+}
 .code {
   display: flex;
   justify-content: center;
@@ -59,8 +74,9 @@ li {
 }
 
 .contact {
-  width: 60vh;
-  font-size: 20px;
+  width: 80vh;
+  font-size: 30px;
+  color:rgb(13, 53, 5)
 }
 
 .my-element {
@@ -73,4 +89,21 @@ li {
 
 .animate__animated.animate__zoomIn {
   --animate-duration: 5s;
+}
+
+.projects {
+  padding: 200px 2rem 2rem 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.card-group {
+  padding: 2rem 2rem 0 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

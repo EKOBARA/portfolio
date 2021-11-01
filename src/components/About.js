@@ -10,7 +10,7 @@ const About = () => {
                     I am a full stack software developer with a passion for innovation. I am driven by the desire to help create and drive the technological wheel to move society forward. From building user friendly applications to help make lives easier to finding ways to improve established works, I love finding creative ways to solve problems.
                 </p>
             </div>
-            <div>
+            <div className='p-link'>
                <Link to='/projects'>
                     <h3>
                         Projects
